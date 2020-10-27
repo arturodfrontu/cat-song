@@ -1,0 +1,37 @@
+*, 
+*::before, 
+*::after,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.container {
+    background-color: #eee;
+    width: 70%;
+    height: 100vh;
+    margin: 20px auto;
+}
+
+.song-title {
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0000ff;
+    letter-spacing: 10px;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.song-text {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #777777;
+    text-align: center;
+}
