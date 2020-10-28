@@ -20,6 +20,7 @@ body{
 }
 
 .verse {
+    display: -ms-flexbox;
     display: flex;
     padding: 15px 20px;
     margin-bottom: 15px;
