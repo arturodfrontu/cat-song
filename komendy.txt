@@ -1,0 +1,8 @@
+Uruchomienie autoprefixer-cli:
+
+node_modules/autoprefixer-cli/autoprefixer-cli -o css/style.prefixed.css css/style.css
+
+Uruchomienie html-validate:
+
+node_modules/.bin/html-validate *.html
+
